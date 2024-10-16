@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rejoice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+          theme: {
+              screens: {
+                  'sm': '700px',
+                  // => @media (min-width: 640px) { ... }
+
+                  'md': '900px',
+                  // => @media (min-width: 768px) { ... }
+
+                  'lg': '1000px',
+                  // => @media (min-width: 1024px) { ... }
+
+                  'xl': '1280px',
+                  // => @media (min-width: 1280px) { ... }
+
+                  '2xl': '1536px',
+                  // => @media (min-width: 1536px) { ... }
+              },
+              extend: {
+                  screens: {
+                      'tablet':{"min": "550px", "max": "700px"},
+                      'mini':{"min": "450px", "max": "550px"},
+                      'mobile':{"min": "360px", "max": "450px"},
+                      'micro':{"min": "220px", "max": "360px"}
+                  }
+              }
+          }
+      }
+  </script>
+  </head>
+  <body>
+    <div class="website overflow-hidden">
+      <div class="loader absolute top-0 left-0 bg-black w-full h-[110vh] pointer-events-none flex justify-center items-center overflow-hidden">
+        <h4 class="translate-y-[-10vh]"> <span> Tommorow's </span> <span> brand, </span> <span> Today <sup>TM</sup></span></h4>
+      </div>
+      <header>
+        <nav
+          class="flex justify-between items-center w-full py-10 px-9 mobile:py-5 mobile:px-6 micro:py-5 micro:px-6 bg-transparent absolute top-0 left-0"
+        >
+          <h2 class="text-[20px] text-white">The Venture Agency</h2>
+          <h3 class="text-[20px] text-white mobile:hidden micro:hidden">Menu</h3>
+          <i class="ri-menu-3-line hidden mobile:block micro:block text-white text-[25px]"></i>
+        </nav>
+      </header>
+      <main class="w-full overflow-hidden">
+        <div class="w-full h-screen flex justify-start items-end">
+          <div class="w-full h-screen absolute top-0 left-0 z-[-1]">
+            <video
+              src="videos/658ef98d531ac2845a270509_RJ-2-0-Videobackground_compressed.mp4"
+              class="w-full h-screen object-cover object-center"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <h1 class="rejouice text-center text-white sm:text-[27.5vw] w-full self-end sm:leading-[20vw] mini:text-[25.5vw] mobile:text-[25.5vw] mobile:mb-5 micro:text-[25.5vw] micro:mb-5">rejouice</h1>
+        </div>
+        <div class="flex w-full justify-center items-center flex-col sm:px-9 tablet:px-7 mini:px-3 mobile:px-1 micro:px-[2px] py-16 bg-[#FAF8F3]">
+          <div class="w-full flex justify-between items-center py-3 border-b-solid border-b-[1px] border-b-black mb-5">
+            <p class="sm:text-[23px] tablet:text-[20px] mini:text-[18px] mobile:text-[15px] micro:text-[13px]">Tommorow's Brands, Today<sup>TM</sup></p>
+            <p class="sm:text-[23px] tablet:text-[20px] mini:text-[18px] mobile:text-[15px] micro:text-[13px]">Paris / San Diego</p>
+          </div>
+          <p class="page2_content lg:text-[60px] lg:leading-[65px] md:text-[50px] md:leading-[55px]  sm:text-[43px] sm:leading-[46px] tablet:text-[38px] tablet:leading-[42px] mini:text-[35px] mini:leading-[38px] mobile:text-[31px] mobile:leading-[35px] micro:text-[28px] micro:leading-[32px]">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a venture firm and
+            digital agency. Our mission is to transform founders' visions into
+            remarkable brands. Choose traditional compensation or an equity
+            offset through our Venture Model — your vision, your decision.
+          </p>
+        </div>
+        <div class="flex justify-center items-center flex-col w-full h-screen bg-[#FAF8F3]">
+          <div class="flex justify-center items-center gap-x-1">
+            <h4>Agency & Venture</h4>
+            <a href="#"><button class="text-[12px] bg-zinc-800 rounded-xl px-2 py-[2px] text-white">
+                Models
+              </button></a>
+          </div>
+          <h1 class="page3Content py-[2px] semibold sm:border-b-[3px] tablet:border-b-[3px] mini:border-b-[3px] mobile:border-b-[2px] micro:border-b-[2px] border-b-black border-b-solid text-center md:text-[55px] md:leading-[60px] sm:text-[50px] sm:leading-[55px] tablet:text-[45px] tablet:leading-[50px] mini:text-[37px] mini:leading-[42px] mobile:text-[30px] mobile:leading-[37px] micro:text-[24px] micro:leading-[32px]">
+            Explore our services
+          </h1>
+          <h1 class="page3Content py-[2px] semibold sm:border-b-[3px] tablet:border-b-[3px] mini:border-b-[3px] mobile:border-b-[2px] micro:border-b-[2px] border-b-black border-b-solid text-center md:text-[55px] md:leading-[60px] sm:text-[50px] sm:leading-[55px] tablet:text-[45px] tablet:leading-[50px] mini:text-[37px] mini:leading-[42px] mobile:text-[30px] mobile:leading-[37px] micro:text-[24px] micro:leading-[32px]">
+            and engagement models
+          </h1>
+        </div>
+        <div class="flex w-full justify-center items-center flex-col sm:px-9 tablet:px-7 mini:px-3 mobile:px-1 micro:px-[2px] pt-16 pb-32 bg-[#FAF8F3] ">
+          <div class="w-full flex justify-between items-center py-3 border-b-solid border-b-[1px] border-b-black mb-5">
+            <p class="sm:text-[23px] tablet:text-[20px] mini:text-[18px] mobile:text-[18px] micro:text-[18px]">Transforming visions into brands</p>
+            <p class="sm:text-[23px] tablet:text-[20px] mini:text-[18px] mobile:hidden micro:hidden">See the work</p>
+          </div>
+          <div class="flex justify-center items-center tablet:flex-col mini:flex-col mobile:flex-col micro:flex-col gap-x-1 gap-y-4">
+            <div class="video1 sm:w-[30vw] tablet:w-[400px] mini:w-[350px] mobile:w-[90%] micro:w-[95%] relative overflow-hidden">
+              <video
+                src="videos/Website-homepage-Work-01_1.mp4"
+                class="w-full h-full object-center object-cover opacity-0"
+                muted
+                loop
+              ></video>
+              <img
+                src="images/rivi_img.webp"
+                class="absolute top-0 left-0 w-full h-full object-center object-cover"
+              />
+              <div class="absolute bottom-[70px] left-[50%] translate-x-[-50%]">
+                <img src="images/rivian.webp" class="w-[150px]" />
+              </div>
+            </div>
+            <div class="video2 sm:w-[30vw] tablet:w-[400px] mini:w-[350px] mobile:w-[90%] micro:w-[95%] relative overflow-hidden">
+              <video
+                src="videos/Website-homepage-Work-02_1.mp4"
+                class="w-full h-full object-center object-cover opacity-0"
+                muted
+                loop
+              ></video>
+              <img
+                src="images/ora_img.webp"
+                class="absolute top-0 left-0 w-full h-full object-center object-cover"
+              />
+              <div class="absolute bottom-[70px] left-[50%] translate-x-[-50%]">
+                <img src="images/oura.svg" class="w-[150px]" />
+              </div>
+            </div>
+            <div class="video3 sm:w-[30vw] tablet:w-[400px] mini:w-[350px] mobile:w-[90%] micro:w-[95%] relative overflow-hidden">
+              <video
+                src="videos/Website-homepage-Work-03_1.mp4"
+                class="w-full h-full object-center object-cover"
+                muted
+                loop
+              ></video>
+              <div class="absolute bottom-[70px] left-[50%] translate-x-[-50%]">
+                <img src="images/Logo.svg" class="w-[150px]" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center relative w-full md:h-[50vw] sm:h-[55vw] tablet:h-[55vw] mini:h-[60vw] mobile:h-[60vw] micro:h-[60vw] bg-[#FAF8F3] pt-20">
+          <video src="videos/RJ-BALL-BLUE-ORANGE-scaled.webm" class="md:w-[70vw] sm:w-[80vw] tablet:w-[100%] mini:w-[130vw] mobile:w-[130vw] mini:w-[130vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-20" autoplay muted loop></video>
+          <div class="md:w-[40vw] sm:w-[47vw] tablet:w-[56vw] mini:w-[63vw] mobile:w-[63vw] micro:w-[63vw] rounded-full border-white border-[1px] border-opacity-35 border-solid md:h-[40vw] sm:h-[47vw] tablet:h-[56vw] mini:h-[63vw] mobile:h-[63vw] micro:h-[63vw] relative z-[2] flex justify-center items-center flex-col">
+            <h1 class="text-white text-[55px] leading-[50px] mini:text-[45px] mini:leading-[40px] mobile:text-[37px] mobile:leading-[32px] micro:text-[30px] micro:leading-[25px]">2 seats</h1>
+            <p class="text-white text-[24px] mobile:text-[19px] micro:text-[16px] opacity-90">available for 2024</p>
+          </div>
+        </div>
+        <div class="w-full bg-[#FAF8F3] pt-[250px] overflow-hidden">
+          <div class="mx-9 mobile:mx-4 micro:mx-2 border-b-black border-b-solid border-b-[1px]">
+            <h1 class="md:text-[80px] md:leading-[80px] sm:text-[60px] sm:leading-[60px] tablet:text-[60px] tablet:leading-[60px] mini:text-[55px] mini:leading-[55px] mobile:text-[50px] mobile:leading-[50px] micro:text-[43px] micro:leading-[43px] font-semibold">Quality over quantity</h1>
+          </div>
+            <div class="flex justify-center items-center w-[max-content] h-[max-content] overflow-hidden whitespace-nowrap translate-y-[-80px] mini:translate-y-[-50px] mobile:translate-y-[-35px] micro:translate-y-[-20px]">
+              <div class="imageSlider flex justify-between items-end w-full h-[max-content]">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality1.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality2.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/ora_img.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality3.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality4.webp">
+              </div>
+              <div class="imageSlider flex justify-between items-end w-full h-[max-content]">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality1.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality2.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/ora_img.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality3.webp">
+                <img class="w-[300px] mobile:w-[270px] micro:w-[250px] inline-block ml-3" src="images/quality4.webp">
+              </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center flex-col w-full h-screen bg-[#FAF8F3] translate-y-[-50px]">
+          <div class="flex justify-center items-center gap-x-1">
+            <h4>We are uniquely built</h4>
+          </div>
+          <h1 class="about mt-4 semibold border-b-[3px] border-b-black border-b-solid text-center text-[55px] leading-[60px]">
+            About us
+          </h1>
+        </div>
+      </main>
+      <footer class="w-full sm:min-h-screen tablet:h-[max-content] bg-black pt-5 flex justify-between items-start flex-col">
+        <div class="w-full flex justify-between items-center bg-black px-9 tablet:flex-col tablet:px-3 tablet:mb-12 mini:flex-col mini:px-3 mini:mb-12 mobile:flex-col mobile:px-3 mobile:mb-12 micro:flex-col micro:px-3 micro:mb-12">
+          <div class="h-[300px] flex flex-col justify-between items-start tablet:flex-row tablet:items-start tablet:w-full tablet:h-[max-content] tablet:mb-5 mini:flex-row mini:items-start mini:w-full mini:h-[max-content] mini:mb-5 mobile:flex-row mobile:items-start mobile:w-full mobile:h-[max-content] mobile:mb-5 micro:flex-row micro:items-start micro:w-full micro:h-[max-content] micro:mb-5">
+            <div>
+              <h3 class="text-white text-[30px] mb-5 mobile:text-[27px]">Relax. We've got you.</h3>
+              <a href="#"><button class="text-white hover:text-black hover:bg-white border-white hover:border-black border-[2px] border-solid px-6 py-[14px] rounded-[50px] outline-none duration-[0.2s]">Take a seat</button></a>
+            </div>
+            <div class="mini:hidden mobile:hidden micro:hidden">San Diego - California<br>Paris - France</div>
+          </div>
+          <div class="flex justify-between items-center w-full gap-x-16 tablet:flex-row tablet:items-between tablet:flex-col mini:flex-row mini:items-between mini:flex-col mobile:flex-row mobile:items-between mobile:flex-col micro:flex-row micro:items-between micro:flex-col">
+            <div class="h-[300px] flex flex-col justify-between items-start tablet:flex-row tablet:items-start tablet:w-full tablet:h-[max-content] tablet:mb-5 mini:flex-row mini:items-start mini:w-full mini:h-[max-content] mini:mb-5 mobile:flex-row mobile:items-start mobile:w-full mobile:h-[max-content] mobile:mb-5 micro:flex-row micro:items-start micro:w-full micro:h-[max-content] micro:mb-5">
+              <div>
+                <h1 class="md:hidden text-[30px] sm:block mini:block mobile:block micro:block">Explore More</h1>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Home</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Work</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">About</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Services & Models</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Contact</h5></a>
+              </div>
+              <div class="mobile:hidden micro:hidden">biz@rejouice.com</div>
+            </div>
+            <div class="h-[300px] flex flex-col justify-between items-start tablet:flex-row tablet:items-start tablet:w-full tablet:h-[max-content] tablet:mb-5 mini:flex-row mini:items-start mini:w-full mini:h-[max-content] mini:mb-5 mobile:flex-row mobile:items-start mobile:w-full mobile:h-[max-content] mobile:mb-5 micro:flex-row micro:items-start micro:w-full micro:h-[max-content] micro:mb-5">
+              <div>
+                <h1 class="md:hidden text-[30px] mobile:text-[27px] sm:block mini:block mobile:block micro:block">Get in Touch</h1>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Twitter</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Fiverr</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">Instagram</h5></a>
+                <a href="#"><h5 class="text-[15px] leading-[17px] ">LinkedIn</h5></a>
+              </div>
+              <div class="mobile:hidden micro:hidden">&copy; 2024 Legal</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-end justify-center overflow-hidden">
+          <h1 class="w-full text-center footerRejouice text-[26.5vw] leading-[24vw] tablet:text-[25.5vw] mini:text-[24.5vw] mobile:text-[24vw] micro:text-[23vw] overflow-hidden px-4">rejouice</h1>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

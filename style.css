@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: nb;
+    src: url('./Rejouice-Headline.ttf');
+}
+*{
+    /* font-family: "Roboto", sans-serif; */
+    font-family: nb;
+}
+.rejouice{
+    font-family: 'rejouice headline', sans-serif;
+}
+
+span{
+    display: inline-block;
+}
+button, a{
+    cursor: pointer;
+}
+
+.imageSlider{
+    animation: imageSliding 15s linear infinite;
+}
+
+@keyframes imageSliding{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100%));
+    }
+}
+footer h5,footer h1, footer div, footer button, footer a, footer p{
+    color: white;
+}
+.loader h4 span{
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    transform: translateX(150px);
+    opacity: 0;
+}
+.rejouice span{
+    transform: translate(-5px, 100px);
+    opacity: 0;
+}
